@@ -1,24 +1,8 @@
-## What is This?
-
-Switching to a more modular approach to writing JavaScript is unfortunately a more difficult process than we might hope. Once you understand the concept of AMD, you then have to figure out the logistics.
-
-- How do you install RequireJS?
-- What about non-AMD libraries and frameworks?
-- What about dependency management?
-- What about optimization or build processes (concatenation, minification)?
-- What about configuration?
-
-This repo, along with the associated video tutorial on Nettuts+ should give you an excellent start. Also, at some point, be sure to consider Yeoman with RequireJS support.
-
 ## Setup
 
-First, of course, download this repo. Then, from the Terminal (assuming Node.js installed), install RequireJS.
+First, of course, download this repo. Then, from the Terminal (assuming Node.js installed), install RequireJS  and Bower (for dependency management) globally if they aren't already.
 
-    npm install requirejs
-
-Next, we need an easy way to deal with dependency management. We'll use Bower, from the guys at Twitter.
-
-    npm install bower
+    npm install -g bower requirejs
 
 Let's now install the dependencies for this project. I'm assuming that we're building a Backbone project, so I've listed RequireJS, jQuery, Underscore, and Backbone as dependencies.
 
